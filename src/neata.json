@@ -1,0 +1,32 @@
+{
+  "welcome": {
+    "titlu": "Welcome to my CV",
+    "author": {
+      "firstName": "Marian1",
+      "lastName": "Zburlea",
+      "jobTitle": "Web Developer"
+    }
+  },
+  "planet": [
+    {
+      "id": 1,
+      "name": "Earth is cool"
+    },
+    {
+      "id": 2,
+      "name": "Marte is super cool"
+    },
+    {
+      "id": 3,
+      "name": "Venus is the best"
+    },
+    {
+      "id": 4,
+      "name": "Pluto is the rest"
+    },
+    {
+      "id": 5,
+      "name": "Jupiter, mega Jupider"
+    }
+  ]
+}
