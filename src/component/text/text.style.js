@@ -36,11 +36,12 @@ export const H2 = styled.h2`
   ${getFontWeight}
 `;
 export const H3 = styled.h3`
+  font-style: italic;
   ${getFontSize}
   ${getLineHeight}
   ${getFontWeight}
 `;
 export const Paragraph = styled.p`
   ${getFontSize}
-  ${getLineHeight}
+  ${getLineHeight} margin: 0;
 `;

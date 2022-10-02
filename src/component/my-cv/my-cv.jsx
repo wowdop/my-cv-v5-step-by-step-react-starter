@@ -1,16 +1,15 @@
 import { Fragment, useEffect, useState } from "react";
-import { Button, Header, Reset, Text, Flex } from "..";
+import { Box, Button, Header, Reset, Text, Flex } from "..";
 import { get } from "axios";
 
 const MyCV = () => {
   const [colectia, modificaColectia] = useState([]);
+  const [summary, update] = useState({});
 
   useEffect(() => {
     const ggg = async () => {
-      const { data } = await get(
-        "https://api.github.com/users/marianzburlea/repos"
-      );
-      modificaColectia(data);
+      const { data } = await get("alex.json");
+      update(data);
     };
 
     ggg();
@@ -38,13 +37,14 @@ const MyCV = () => {
           </Fragment>
         ))}
       </ul> */}
-      <Header>Tech I love to work with</Header>
-      <Button color="milanoRed">Subscribe</Button>
       <Header font={16} color="funOrange">
         Continue reading so you can get to know how I can help you help me help
         you so everytone gets helped
       </Header>
-      <Header font={16} color="funBlue">
+      <Box summary={summary} />
+      <Header>Tech I love to work with</Header>
+      <Button color="milanoRed">Subscribe</Button>
+      <Header font={16} color="funOrange">
         Continue reading so you can get to know how I can help you help me help
         you so everytone gets helped
       </Header>
