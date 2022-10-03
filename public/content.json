@@ -1,0 +1,428 @@
+{
+  "welcome": {
+    "sectionTitle": "Welcome to my CV",
+    "nameTitle": "Viorel Tomita",
+    "jobTitle": "Aspiring Web Developer",
+    "aboutTitle": "About me",
+    "descriptionList": [
+      "I am passionate, hardworking, a quick learner used to working in a fast paced environment for long hours.",
+      "Strong organisational and leading skills, efficient in meeting productivity targets, offering reliability and responsibility; charismatic and friendly."
+    ],
+    "downloadButtonLabel": "Download my CV"
+  },
+  "skills": {
+    "sectionTitle": "Skills",
+    "description": [
+      "I am working on improving the candidate's experience during the job search time.",
+      "I work every day with Remix, React, Hooks, Redux, NextJS, and Firebase with JavaScript and TypeScript to create amazing Apps."
+    ],
+    "legend": {
+      "title": "Legend",
+      "itemList": [
+        {
+          "color": "red",
+          "label": "Skills I love"
+        },
+        {
+          "color": "green",
+          "label": "Skills I`d love to get better at"
+        },
+        {
+          "color": "blue",
+          "label": "Skills I`m good at"
+        }
+      ]
+    },
+    "skillTypeList": [
+      {
+        "category": "Front-end",
+        "skillList": [
+          {
+            "color": "red",
+            "label": "HTML"
+          },
+          {
+            "color": "red",
+            "label": "SASS"
+          },
+          {
+            "color": "red",
+            "label": "React"
+          },
+          {
+            "color": "blue",
+            "label": "HTML"
+          },
+          {
+            "color": "blue",
+            "label": "CSS"
+          },
+          {
+            "color": "green",
+            "label": "Remix"
+          },
+          {
+            "color": "green",
+            "label": "Redux"
+          }
+        ]
+      },
+      {
+        "category": "Back-end",
+        "skillList": [
+          {
+            "color": "red",
+            "label": "Bash"
+          },
+          {
+            "color": "red",
+            "label": "API"
+          },
+          {
+            "color": "blue",
+            "label": "Pug"
+          },
+          {
+            "color": "blue",
+            "label": "Webpack"
+          },
+          {
+            "color": "green",
+            "label": "Gulp"
+          },
+          {
+            "color": "green",
+            "label": "CLI"
+          }
+        ]
+      },
+      {
+        "category": "Other",
+        "skillList": [
+          {
+            "color": "red",
+            "label": "HTML"
+          },
+          {
+            "color": "red",
+            "label": "Remix"
+          },
+          {
+            "color": "blue",
+            "label": "Live Events"
+          },
+          {
+            "color": "blue",
+            "label": "React"
+          },
+          {
+            "color": "green",
+            "label": "Redux"
+          }]
+      }
+    ]
+  },
+  "connect": {
+    "sectionTitle": "Let`s connect",
+    "avatarPath": "bla-bla.jpeg",
+    "boxContent": {
+      "boxTitle": "Contact",
+      "content": [
+        "I am working on improving the candidate's experience during the job search time.",
+        "I work every day with Remix, React, Hooks, Redux, NextJS, and Firebase with JavaScript and TypeScript to create amazing Apps."
+      ]
+    },
+    "socialList": [
+      {
+        "icon": "github",
+        "title": "GitHub",
+        "description": "Junior Web Developer with the help of WOWDOP",
+        "label": "github",
+        "link": "https://github.com/Vivy"
+      },
+      {
+        "icon": "linkedin",
+        "title": "LinkedIn",
+        "description": "We can connect over LinkedIn",
+        "label": "linkedin.com/numele vietii",
+        "link": "linkedin.bau bau eu "
+      },
+      {
+        "icon": "codewars",
+        "title": "Codewars",
+        "description": "You can see my progress here",
+        "label": "codewars",
+        "link": "codewars.../Vivy"
+      },
+      {
+        "icon": "facebook",
+        "title": "Facebook",
+        "description": "For more social media content about me please follow on Facebook",
+        "label": "facebook",
+        "link": "Facebook/Vivy"
+      },
+      {
+        "icon": "instagram",
+        "title": "Twitter",
+        "description": "For more social media content about me please follow on Twitter",
+        "label": "twitter",
+        "link": "Twitter/Vivy"
+      },
+      {
+        "icon": "instagram",
+        "title": "Instagram",
+        "description": "For more social media content about me please follow on Instagram",
+        "label": "instagram",
+        "link": "Instagram/Vivy"
+      }
+    ]
+  },
+  "experience": {
+    "sectionTitle": "Experience",
+    "jobList": [
+       {
+        "jobTitle": "Aspiring Web Developer",
+        "workingPeriod": "September 2022 - Present",
+        "logo": "company/logo/that/you/worked/for.jpg",
+        "companyName": "WOW DOP",
+        "moreDetailes": [
+          "Am facut ce am vrut",
+          "Am invatat ce am facut cand am vrut"
+        ]
+       },
+       {
+        "jobTitle": "Transport Manager",
+        "workingPeriod": "March 2021 - September 2022",
+        "logo": "company/logo/that/you/worked/for.jpg",
+        "companyName": "VIO Driving Services LTD",
+        "moreDetailes": [
+          "Planning routes for next day for all the drivers",
+          "Calling and emailing clients and subcontractors to resolve issues that may occur during the day",
+          "Doing all the neccessary work to make sure the business runs as smooth as possible"
+        ]
+       },
+       {
+        "jobTitle": "Transport Subcontractor",
+        "workingPeriod": "June 2018 - March 2022",
+        "logo": "company/logo/that/you/worked/for.jpg",
+        "companyName": "VIO Driving Services LTD",
+        "moreDetailes": [
+          "Planning routes for next day for all the drivers",
+          "Calling and emailing clients and subcontractors to resolve issues that may occur during the day",
+          "Doing all the neccessary work to make sure the business runs as smooth as possible"
+        ]
+       },
+       {
+        "jobTitle": "Tech support for AOL",
+        "workingPeriod": "September 2016 - June 2018",
+        "logo": "company/logo/that/you/worked/for.jpg",
+        "companyName": "CGS Romania",
+        "moreDetailes": [
+          "Answering phone calls and helping clients with there issues",
+          "Making sure that we met our users needs"
+        ]
+       },
+       {
+        "jobTitle": "Security Supervisor",
+        "workingPeriod": "February 2015 - August 2016",
+        "logo": "company/logo/that/you/worked/for.jpg",
+        "companyName": "Cavalli Club Dubai",
+        "moreDetailes": [
+          "Taking care of the VIP clients",
+          "Resolving issues that might occur during the events"
+        ]
+       },
+       {
+        "jobTitle": "Police Officer",
+        "workingPeriod": "February 2010 - January 2015",
+        "logo": "company/logo/that/you/worked/for.jpg",
+        "companyName": "Ministry of Interior Romania",
+        "moreDetailes": [
+          "Doing police work",
+          "Managing situations and keeping in touch with other branches or the government to resolv all the issues"
+        ]
+       }
+    ]
+  },
+  "openSource": {
+    "sectionTitle": "Open Source",
+    "stats": {
+      "statsTitle": "Stats",
+      "statsList": [
+        {
+        "statsIcon": "github",
+        "statsDescription": [
+            "Contribution last year, over 233",
+            "Longest streak: 10 as of 29/09/22"
+        ]
+      },
+        {
+        "statsIcon": "codewars",
+        "statsDescription": ["Rank: 7kyu", "Honor: 65"
+        ]
+      },
+        {
+        "statsIcon": "stackoverflow",
+        "statsDescription": [
+            "Top:------------>",
+            "Reputation: 1",
+            "People reached: countless",
+            "Answer: just 1 but a good 1"
+        ]
+      }
+    ]
+    },
+    "projects": {
+      "projectSource": "Github Projects",
+      "projectList": [
+        {
+          "projectTitle": "My cv v5 step by step starter",
+          "skillsGained": [
+            {
+              "skillName": "JavaScript",
+              "percentage": "72.7",
+              "color": "energyYellow"
+            },
+            {
+              "skillName": "SCSS",
+              "percentage": "19.4",
+              "color": "mulBerry"
+            },
+            {
+              "skillName": "Pug",
+              "percentage": "7.1",
+              "color": "matrix"
+            },
+            {
+              "skillName": "Dokerfile",
+              "percentage": "0.8",
+              "color": "limedSpruce"
+            }
+          ],
+          "projectStats": [
+            {
+              "projectStatIcon": "commits",
+              "projectStatInfo": "Commits: 14"
+            },
+            {
+              "projectStatIcon": "stars",
+              "projectStatInfo": "Stars:---"
+            },
+            {
+              "projectStatIcon": "forks",
+              "projectStatInfo": "Forks:---"
+            }
+          ],
+          "projectInfo": "Building website in a team to increase efficiency and to deliver better and faster products; actively learning and applying HTML5, CSS3, JavaScript, ReactJS, and Redux",
+          "projectIcon": {
+            "mandatoryIcon": "icon",
+            "extraIcon": [
+              {
+                "icon": "github",
+                "link": "https://github.com/Vivy/my-cv-v5-step-by-step-starter"
+              },
+              {
+                "icon": "youtube",
+                "link": "youtube bla bla"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "portofolio": {
+    "sectionTitle": "Portofolio",
+    "subtitle": "Recent",
+    "recentPortofolioList": [
+      {
+        "title": "My cv v5 step by step starter",
+        "skills": "JavaScript, Git, SCSS, Dokerfile",
+        "link": "https://github.com/Vivy/my-cv-v5-step-by-step-starter",
+        "image": "https://github.com/Vivy/my-cv-v5-step-by-step-starter",
+        "linkIcon": "https://github.com/Vivy/my-cv-v5-step-by-step-starter"
+      },
+      {
+        "title": "My cv v5 step by step starter",
+        "skills": "JavaScript, Git, SCSS, Dokerfile",
+        "link": "https://github.com/Vivy/my-cv-v5-step-by-step-starter",
+        "image": "https://github.com/Vivy/my-cv-v5-step-by-step-starter",
+        "linkIcon": "https://github.com/Vivy/my-cv-v5-step-by-step-starter"
+      }
+    ],
+    "oldPortofolio": {
+      "title": "Old",
+      "oldDataList": [
+        {
+          "title": "CodeTap Academy",
+          "skills": "HTML, CSS, Git, JavaScript, SEO, React",
+          "link": "https://codetap.academy",
+          "image": "asset/image/company-logo/a-logo.png",
+          "linkIcon": "https://codetap.academy"
+        },
+        {
+          "title": "CodeTap Academy",
+          "skills": "HTML, CSS, Git, JavaScript, SEO, React",
+          "link": "https://codetap.academy",
+          "image": "asset/image/company-logo/a-logo.png",
+          "linkIcon": "https://codetap.academy"
+        }
+      ]
+    }
+  },
+  "recommendation": {
+    "sectionTitle": "Recommendation",
+    "recommendationList": [
+        {
+          "image": "asset/image/marian.jpg",
+          "personName": "Marian Zburlea",
+          "jobTitle": "Career Mentor",
+          "review": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "image": "asset/image/marian.jpg",
+          "personName": "Marian Zburlea",
+          "jobTitle": "Career Mentor",
+          "review": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+    ]
+  },
+  "reviews": {
+    "sectionTitle": "Reviews",
+    "reviewList": [
+      {
+        "image": "asset/image/marian.jpg",
+        "personName": "Marian Zburlea",
+        "date": "September 2021 at 20:45",
+        "review": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "image": "asset/image/marian.jpg",
+        "personName": "Marian Zburlea",
+        "date": "November 2022 at 21:45",
+        "review": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      }
+    ]
+  },
+  "proud": {
+    "sectionTitle": "I`m proud",
+    "subtitle": "Awards and Achievements",
+    "proudList": [
+      {
+         "date": "September 2017",
+         "award": "I decided shit, and shit got done",
+         "location": "Manchester"
+      },
+      {
+         "date": "August 2018",
+         "award": "I decided shit, and shit got done",
+         "location": "Oxford"
+      },
+      {
+         "date": "September 2022",
+         "award": "I decided shit, and shit got done",
+         "location": "Coventry"
+      }
+    ]
+  }
+}

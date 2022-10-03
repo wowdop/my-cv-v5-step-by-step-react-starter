@@ -1,9 +1,10 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const colorMap = {
   funGreen: '#046B2D',
   milanoRed: '#C62A08',
-}
+  transparent: 'transparent',
+};
 
 export const Button = styled.button`
   background-color: ${({ color }) => colorMap[color]};
@@ -13,8 +14,7 @@ export const Button = styled.button`
   border: 0;
   font-size: 16px;
   padding: 0 16px;
-
   display: flex;
   gap: 8px;
   align-items: center;
-`
+`;
