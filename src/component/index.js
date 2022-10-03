@@ -1,3 +1,4 @@
+export { Anchor } from "./anchor";
 export { Button } from "./button";
 export { Box } from "./box";
 export { Flex } from "./flex";

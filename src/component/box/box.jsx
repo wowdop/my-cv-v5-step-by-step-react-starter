@@ -1,14 +1,11 @@
 import { Text, Flex } from "..";
 
-const Box = ({ summary }) => {
-  const { title, box } = summary;
-  console.log(box, "box");
-
+const Box = ({ aboutTitle, descriptionList, shadow, padding }) => {
   return (
     <div>
-      <Text type="h3">{title}</Text>
-      <Flex gap={8} vertical>
-        {(box || []).map((elements, key) => {
+      <Text type="h3">{aboutTitle}</Text>
+      <Flex padding={padding} gap={8} vertical shadow={shadow}>
+        {(descriptionList || []).map((elements, key) => {
           return <Text key={key}>{elements}</Text>;
         })}
       </Flex>
