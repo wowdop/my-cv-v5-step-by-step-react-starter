@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const getSize = {
   h1: {
@@ -12,6 +12,10 @@ const getSize = {
   h3: {
     text: 20,
     line: 24,
+  },
+  h4: {
+    text: 18,
+    line: 21,
   },
   p: {
     text: 16,
@@ -30,17 +34,28 @@ export const H1 = styled.h1`
   ${getLineHeight}
   ${getFontWeight}
 `;
+
 export const H2 = styled.h2`
   ${getFontSize}
   ${getLineHeight}
   ${getFontWeight}
 `;
+
 export const H3 = styled.h3`
   font-style: italic;
   ${getFontSize}
   ${getLineHeight}
   ${getFontWeight}
 `;
+
+export const H4 = styled.h4`
+  font-style: italic;
+  ${getFontSize}
+  ${getLineHeight}
+  ${getFontWeight}
+  margin: 0;
+`;
+
 export const Paragraph = styled.p`
   ${getFontSize}
   ${getLineHeight} margin: 0;
