@@ -17,5 +17,6 @@ export const Flex = styled.div`
     shadow ? "box-shadow: 4px 4px hsla(0, 0%, 0%, 0.25);" : ""}
   ${({ shadow }) => (shadow ? "border-radius: 16px;" : "")}
   ${({ shadow }) => (shadow ? "border: 1px solid #E3E6EF;" : "")}
+  ${({ width }) => (width ? `width:${width}%;` : "")}
   ${getPadding}
 `;

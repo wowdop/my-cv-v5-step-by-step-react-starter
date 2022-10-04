@@ -5,5 +5,7 @@ export { Divider } from "./divider";
 export { Flex } from "./flex";
 export { Header } from "./header";
 export { MyCV } from "./my-cv";
+export { Pill } from "./pill";
 export { Reset } from "./reset";
+export { Skill } from "./skill";
 export { Text } from "./text";
