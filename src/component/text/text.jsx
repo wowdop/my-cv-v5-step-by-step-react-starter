@@ -20,6 +20,12 @@ const Text = ({ type, children }) => {
           {children}
         </S.H3>
       );
+    case "h4":
+      return (
+        <S.H4 type="h4" weight="400">
+          {children}
+        </S.H4>
+      );
 
     default:
       return <S.Paragraph type="p">{children}</S.Paragraph>;

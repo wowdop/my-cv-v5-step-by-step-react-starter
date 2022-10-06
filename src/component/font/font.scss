@@ -1,0 +1,90 @@
+@import "variable";
+
+@font-face {
+  font-family: 'my-cv';
+  src:
+    url('/font/my-cv.ttf?fx5yk1') format('truetype'),
+    url('/font/my-cv.woff?fx5yk1') format('woff'),
+    url('/font/my-cv.svg?fx5yk1#my-cv') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="my-cv-"], [class*="my-cv-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'my-cv' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my-cv-chevron-down2 {
+  &:before {
+    content: $cv-chevron-down2; 
+  }
+}
+.my-cv-chevron-down1 {
+  &:before {
+    content: $cv-chevron-down1; 
+  }
+}
+.my-cv-chevron-down {
+  &:before {
+    content: $cv-chevron-down; 
+  }
+}
+.my-cv-tiktok {
+  &:before {
+    content: $cv-tiktok; 
+  }
+}
+.my-cv-instagram {
+  &:before {
+    content: $cv-instagram;     
+    color: #e4405f;
+  }
+}
+.my-cv-linkedin {
+  &:before {
+    content: $cv-linkedin;     
+    color: #0077b5;
+  }
+}
+.my-cv-codewars {
+  &:before {
+    content: $cv-codewars;     
+    color: #ad2c27;
+  }
+}
+.my-cv-github {
+  &:before {
+    content: $cv-github; 
+  }
+}
+.my-cv-whatsapp {
+  &:before {
+    content: $cv-whatsapp;     
+    color: #25d366;
+  }
+}
+.my-cv-facebook {
+  &:before {
+    content: $cv-facebook;     
+    color: #1877f2;
+  }
+}
+.my-cv-youtube {
+  &:before {
+    content: $cv-youtube;     
+    color: #f00;
+  }
+}
+

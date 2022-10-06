@@ -13,6 +13,10 @@ const getSize = {
     text: 20,
     line: 24,
   },
+  h4: {
+    text: 18,
+    line: 21,
+  },
   p: {
     text: 16,
     line: 19,
@@ -27,18 +31,24 @@ const getFontWeight = ({ weight }) => `font-weight: ${weight};`;
 
 export const H1 = styled.h1`
   ${getFontSize}
-  ${getLineHeight}
+  ${getLineHeight} margin: 0;
   ${getFontWeight}
 `;
 export const H2 = styled.h2`
   ${getFontSize}
-  ${getLineHeight}
+  ${getLineHeight} margin: 0;
   ${getFontWeight}
 `;
 export const H3 = styled.h3`
   font-style: italic;
   ${getFontSize}
-  ${getLineHeight}
+  ${getLineHeight} margin: 0;
+  ${getFontWeight}
+`;
+export const H4 = styled.h4`
+  font-style: italic;
+  ${getFontSize}
+  ${getLineHeight} margin: 0;
   ${getFontWeight}
 `;
 export const Paragraph = styled.p`
