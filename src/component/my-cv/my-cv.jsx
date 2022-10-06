@@ -9,6 +9,7 @@ import {
   Flex,
   Pill,
   Skill,
+  Icon
 } from '..';
 import { get } from 'axios';
 
@@ -37,12 +38,12 @@ const MyCV = () => {
       <Reset />
       <Header>Welcome to my CV</Header>
       <Flex vertical align='center'>
-        <Button href='google.com' title='BINE' color='transparent'>
-          FANTOMA
+        <Icon culoare='black' size='small' icon='youtube'/>
+        <Button icon='youtube' href='google.com' title='BINE' color='transparent'>fantoma
         </Button>
         <Text type='h1'>Alexandru Ivanov</Text>
         <Text type='h2'>Web Developer</Text>
-        <Button color='funGreen'>
+        <Button icon='youtube'color='funGreen'>
           <span>O</span>
           Download
         </Button>

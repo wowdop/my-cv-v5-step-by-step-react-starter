@@ -9,3 +9,4 @@ export { Pill } from "./pill";
 export { Reset } from "./reset";
 export { Skill } from "./skill";
 export { Text } from "./text";
+export { Icon } from "./icon";
